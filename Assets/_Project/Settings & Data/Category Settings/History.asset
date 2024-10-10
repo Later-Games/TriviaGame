@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10532c97aef6054894dd83cf4baa162, type: 3}
+  m_Name: History
+  m_EditorClassIdentifier: 
+  category: 1
+  categoryName: HISTORY
+  categoryColor: {r: 0, g: 0.97647065, b: 0.06666667, a: 1}
+  characterName: ALBERT
+  characterSprite: {fileID: 21300000, guid: f6fca9dc82fbddf4bba82351e561deff, type: 3}
+  titleBackground: {fileID: 21300000, guid: a8902fc3ea2643e45a6b3a7926a3dca0, type: 3}

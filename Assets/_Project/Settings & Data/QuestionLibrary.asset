@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6277b3721370ab841881d9a889cff20d, type: 3}
+  m_Name: QuestionLibrary
+  m_EditorClassIdentifier: 
+  questionParser: {fileID: 11400000, guid: 22ebf2117c48fa24bbb31a2c4756536a, type: 2}
+  questionDataList:
+  - question: "Hangisi T\xFCrkiye'nin ba\u015Fkenti de\u011Fildir?"
+    questionCategory: 0
+    answers:
+    - "A) \u0130stanbul"
+    - B) Ankara
+    - "C) \u0130zmir"
+    - D) Bursa
+    correctAnswerIndex: 2
+  - question: "Hangisi Osmanl\u0131 Padi\u015Fah\u0131 de\u011Fildir?"
+    questionCategory: 1
+    answers:
+    - A) Fatih Sultan Mehmet
+    - "B) S\xFCleyman Kanuni"
+    - "C) Abd\xFClhamit II"
+    - "D) K\xF6sem Sultan"
+    correctAnswerIndex: 3
+  - question: "Hangisi bir m\xFCzik grubu de\u011Fildir?"
+    questionCategory: 2
+    answers:
+    - A) Pink Floyd
+    - B) Queen
+    - C) Metallica
+    - D) Tarkan
+    correctAnswerIndex: 3
+  - question: "Hangisi bir film de\u011Fildir?"
+    questionCategory: 3
+    answers:
+    - A) Gladiator
+    - B) Pulp Fiction
+    - C) Titanic
+    - "D) Benim Ad\u0131m K\u0131rm\u0131z\u0131"
+    correctAnswerIndex: 3
+  - question: "Hangisi T\xFCrkiye'nin ba\u015Fkenti de\u011Fildir?"
+    questionCategory: 0
+    answers:
+    - "A) \u0130stanbul"
+    - B) Ankara
+    - "C) \u0130zmir"
+    - D) Bursa
+    correctAnswerIndex: 2
+  - question: "Hangisi Osmanl\u0131 Padi\u015Fah\u0131 de\u011Fildir?"
+    questionCategory: 1
+    answers:
+    - A) Fatih Sultan Mehmet
+    - "B) S\xFCleyman Kanuni"
+    - "C) Abd\xFClhamit II"
+    - "D) K\xF6sem Sultan"
+    correctAnswerIndex: 3
+  - question: "Hangisi bir m\xFCzik grubu de\u011Fildir?"
+    questionCategory: 2
+    answers:
+    - A) Pink Floyd
+    - B) Queen
+    - C) Metallica
+    - D) Tarkan
+    correctAnswerIndex: 3
+  - question: "Hangisi bir film de\u011Fildir?"
+    questionCategory: 3
+    answers:
+    - A) Gladiator
+    - B) Pulp Fiction
+    - C) Titanic
+    - "D) Benim Ad\u0131m K\u0131rm\u0131z\u0131"
+    correctAnswerIndex: 3
+  - question: "Hangisi T\xFCrkiye'nin ba\u015Fkenti de\u011Fildir?"
+    questionCategory: 0
+    answers:
+    - "A) \u0130stanbul"
+    - B) Ankara
+    - "C) \u0130zmir"
+    - D) Bursa
+    correctAnswerIndex: 2
+  - question: "Hangisi Osmanl\u0131 Padi\u015Fah\u0131 de\u011Fildir?"
+    questionCategory: 1
+    answers:
+    - A) Fatih Sultan Mehmet
+    - "B) S\xFCleyman Kanuni"
+    - "C) Abd\xFClhamit II"
+    - "D) K\xF6sem Sultan"
+    correctAnswerIndex: 3

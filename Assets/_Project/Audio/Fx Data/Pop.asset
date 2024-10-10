@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfbcc30d1289e0c449c50e0896953465, type: 3}
+  m_Name: Pop
+  m_EditorClassIdentifier: 
+  soundType: 6
+  volume: 0.5
+  audioClips:
+  - {fileID: 8300000, guid: 775ea9e3c90896d49ad018488aea4eb7, type: 3}
+  - {fileID: 8300000, guid: fc4ea777a85f8d849aa911ff78fe1b56, type: 3}
+  - {fileID: 8300000, guid: 1ec5d309027da074898261dd4aca0440, type: 3}
+  - {fileID: 8300000, guid: 1ba374acfc1f8274cb74985e8dfdd9c7, type: 3}
+  - {fileID: 8300000, guid: aac032124179a4740943310dc0862bbc, type: 3}
