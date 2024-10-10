@@ -41,7 +41,7 @@ namespace TriviaGame.InGame.Question
 
         public void DoMoveOutAnimation(float moveDuration, float delay)
         {
-            transform.DOLocalMoveX(-Screen.width, moveDuration)
+            transform.DOLocalMoveX(-1500f, moveDuration)
                 .SetEase(Ease.InBack)
                 .SetDelay(delay)
                 .OnComplete(() => { answerButton.image.color = Color.white; });
@@ -49,7 +49,7 @@ namespace TriviaGame.InGame.Question
 
         public void DoMoveInAnimation(float moveDuration, float delay)
         {
-            transform.DOLocalMoveX(0f, moveDuration).From(Screen.width)
+            transform.DOLocalMoveX(0f, moveDuration).From(1500f)
                 .SetEase(Ease.OutBack)
                 .SetDelay(delay)
                 .OnComplete(() => { answerButton.image.color = Color.white; });

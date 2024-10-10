@@ -16,6 +16,8 @@ namespace TriviaGame.InGame.Question
         private float _likeButtonPosition;
         private float _dislikeButtonPosition;
 
+        private float _outPosition = 1500f;
+
         private CanvasManager.CanvasType _nextCanvasType;
 
         private void Start()
@@ -30,15 +32,15 @@ namespace TriviaGame.InGame.Question
             SetButtonState(false);
 
             Vector3 continueButtonPosition = continueButton.transform.localPosition;
-            continueButtonPosition.x = Screen.width;
+            continueButtonPosition.x = _outPosition;
             continueButton.transform.localPosition = continueButtonPosition;
 
             Vector3 likeButtonPosition = likeButton.transform.localPosition;
-            likeButtonPosition.x = _likeButtonPosition + Screen.width;
+            likeButtonPosition.x = _likeButtonPosition + _outPosition;
             likeButton.transform.localPosition = likeButtonPosition;
 
             Vector3 dislikeButtonPosition = dislikeButton.transform.localPosition;
-            dislikeButtonPosition.x = _dislikeButtonPosition - Screen.width;
+            dislikeButtonPosition.x = _dislikeButtonPosition - _outPosition;
             dislikeButton.transform.localPosition = dislikeButtonPosition;
 
             gameObject.SetActive(false);

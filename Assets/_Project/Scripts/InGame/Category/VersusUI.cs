@@ -15,8 +15,8 @@ namespace TriviaGame.InGame.Category
             float playerLinePositionX = playerLineTransform.localPosition.x;
             float enemyLinePositionX = enemyLineTransform.localPosition.x;
 
-            playerLineTransform.localPosition -= Vector3.right * Screen.width;
-            enemyLineTransform.localPosition += Vector3.right * Screen.width;
+            playerLineTransform.localPosition -= Vector3.right * 1500f;
+            enemyLineTransform.localPosition += Vector3.right * 1500f;
 
             playerLineTransform.DOLocalMoveX(playerLinePositionX, animDuration);
             enemyLineTransform.DOLocalMoveX(enemyLinePositionX, animDuration);
