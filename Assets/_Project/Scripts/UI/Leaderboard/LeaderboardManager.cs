@@ -87,6 +87,8 @@ namespace TriviaGame.UI.Leaderboard
             transform.localScale = Vector3.zero;
 
             canvas.enabled = true;
+            
+            leaderboardUI.SetScrollState(false);
 
             transform.DOKill();
             transform.position = openLeaderboardButton.transform.position;
@@ -100,6 +102,8 @@ namespace TriviaGame.UI.Leaderboard
 
         public override float HideCanvas()
         {
+            leaderboardUI.SetScrollState(false);
+
             transform.DOMove(openLeaderboardButton.transform.position, 0.5f);
             transform.DOScale(Vector3.zero, 0.5f).OnComplete(() => 
             {

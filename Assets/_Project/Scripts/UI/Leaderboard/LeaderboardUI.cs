@@ -65,11 +65,17 @@ namespace TriviaGame.UI.Leaderboard
 
         public void ResetScrollPosition()
         {
-            scoreScrollRect.enabled = false;
+            SetScrollState(false);
             var position = scoreContainer.anchoredPosition;
             position.y = 0;
             scoreContainer.anchoredPosition = position;
-            scoreScrollRect.enabled = true;
+            SetScrollState(true);
+        }
+
+        public void SetScrollState(bool state)
+        {
+            // enable and disable scroll in animations and to make sure it is not flicker
+            scoreScrollRect.enabled = state;
         }
         
     }
